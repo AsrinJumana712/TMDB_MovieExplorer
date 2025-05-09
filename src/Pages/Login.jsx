@@ -85,7 +85,7 @@ function Login() {
             variant="outlined"
             label="password"
             value={password}
-            onChange={(e) => setUsername(e.target.value)}
+            onChange={(e) => setPassword(e.target.value)}
             sx={{
               backgroundColor: "#fafafa",
               padding: "5px",
